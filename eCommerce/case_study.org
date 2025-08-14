@@ -1,0 +1,18 @@
+#+title: Global & Local E-Commerce System
+
+* Introduction
+** Features of E-commerce
+** History
+** E-commerce Framework
+** Types of E-commerce
+** Challenges in E-commerce
+
+* E-commerce Business Model
+
+* Electronic Payment System
+
+* Security in E-Commerce
+
+* Digital Marketing
+
+* Optimizing E-commerce Systems

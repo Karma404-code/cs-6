@@ -1,0 +1,37 @@
+#+title: Introduction to ASP.NET Core MVC
+
+* .NET Framework
+Since 2000, .NET has evolved to include three different implementations.
+
+- .NET Framework
+- .NET Core
+- Xamarin with Mono
+
+These implementations are called frameworks. The .NET Framework was the original implementation of .NET and was released in 2002. Mono was released in 2004 and .NET Core was released in 2016. Mono includes web and mobile development tools, whereas .NET Core focuses on web development.
+
+Notably, Mono and .NET Core are both cross-platform implementations of the .NET Framework. This means they can run on multiple different operating systems, such as Mac OSX and Windows. Applications developed with the .NET Framework can only run on Windows.
+
+In 2020, Microsoft released .NET 5.0 as the new modern and standard framework. With the release of .NET 5, Microsoft sought to unify many disparate tools under one new name, ".NET", and ensure that all of these tools are cross-platform and open source. This unification project is ongoing today, and new features and tooling is continually being added to .NET.
+
+* ASP.NET Core
+ASP.NET Core is a cross-platform, high-performance, open-source framework for building modern web apps using .NET. The framework is built for large-scale app development and can handle any size workload, making it a robust choice for enterprise-level apps.
+
+** Features of ASP.NET Core
+- Unified framework
+- Full stack productivity
+- Secure by design
+- Cloud-ready
+- Performance & scalability
+- Trusted and mature
+
+* MVC Pattern
+The Model-View-Controller (MVC) architectural pattern separates an application into three main groups of components: Models, Views, and Controllers. This pattern helps to achieve separation of concerns. Using this pattern, user requests are routed to a Controller which is responsible for working with the Model to perform user actions and/or retrieve results of queries. The Controller chooses the View to display to the user, and provides it with any Model data it requires.
+
+** Models
+The Model in an MVC application represents the state of the application and any business logic or operations that should be performed by it. Business logic should be encapsulated in the model, along with any implementation logic for persisting the state of the application. Strongly-typed views typically use ViewModel types designed to contain the data to display on that view. The controller creates and populates these ViewModel instances from the model.
+
+** Views
+Views are responsible for presenting content through the user interface. They use the Razor view engine to embed .NET code in HTML markup. There should be minimal logic within views, and any logic in them should relate to presenting content. If you find the need to perform a great deal of logic in view files in order to display data from a complex model, consider using a View Component, ViewModel, or view template to simplify the view.
+
+** Controllers
+Controllers are the components that handle user interaction, work with the model, and ultimately select a view to render. In an MVC application, the view only displays information; the controller handles and responds to user input and interaction. In the MVC pattern, the controller is the initial entry point, and is responsible for selecting which model types to work with and which view to render (hence its name - it controls how the app responds to a given request).

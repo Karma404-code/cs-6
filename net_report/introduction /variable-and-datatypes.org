@@ -1,0 +1,76 @@
+#+title: Variable And Datatype
+
+* Variable
+** Defining a C# Variable
+To create a C# variable, we need three things:
+
+1. A descriptive name so it's easy to tell what the variable represents. Our variables should always have descriptive names, regardless of the language we use.
+2. A data type such as `string` or `int` to declare what type of data the variable holds. We didn't need to do this in JavaScript because it is weakly typed. However, because C# is strongly typed, we always need to declare the data type of a variable.
+3. An initial value should be set with the assignment operator (the `=` symbol).
+4. The whole statement should end with a semicolon `;`.
+
+** Naming Conventions
+C# variables names should always be written in lower camel case. The first letter of the word is lowercase, there are no spaces between words, and the first letter of any subsequent words are capitalized.
+
+For example:
+- myVariable
+- myMultipleWordVariable
+
+* Common Data Types
+
+** String
+C# strings are simply a sequence of characters between two quotation marks.
+#+begin_src csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string firstStr = "Hello";
+        string secondStr = "World!";
+        string concat = firstStr + secondStr;
+        Console.WriteLine(concat);
+    }
+}
+
+#+end_src
+
+#+RESULTS:
+: HelloWorld!
+
+** Char
+A char is the C# data type that represents a single symbol or alphanumeric character, in upper or lower case. We declare a char with apostophes.
+
+#+begin_src
+
+#+end_src
+
+** Intergers and Longs
+Both integers and longs represent whole numbers, that is, numbers without decimals. Integers are meant to hold smaller numbers between -2,147,483,648 and 2,147,483,647. Longs are meant to hold larger numbers between -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807.
+
+** Floats and Doubles
+The float and double data types represent decimal numbers like 3.14 or 9.2342342342342. Floats are meant to hold numbers with a smaller number of decimals, about 6 to 9 digits. Doubles are meant to hold numbers with a larger amount of decimals, about 15 to 17 digits. Collectively, numbers with a decimal point are referred to as **floating-point numbers in computer programming.
+
+* Value Types and Reference Types
+C# divides its types into two main categories: value types and reference types. The difference between the two has to do with how each is saved in memory, and how that affects the behavior of the type. Let's look at examples and definitions to understand these two categories.
+
+** Value Types
+A value type is a type that stores its actual value.
+
+#+begin_src csharp
+
+
+#+end_src
+
+The variables `a` and `b` each store an `int`, a value type. As a value type, each variable stores the actual value. That means each variable is independent of the other: when we update the value of `a` to `2`, only the `a` variable is changed to `2`, and `b` continues to have the same value of `1`.
+
+** Reference Types
+A reference type is a type that stores a reference to a value, which is stored elsewhere in memory.
+
+#+begin_src
+
+
+#+end_src
+
+The variables `c` and `d` each store a `List<T>`, a reference type. As a reference type, each variable stores a reference to another location in memory, and the other location in memory contains the actual value. This means that when we set `List<int> d = c;`, we're assigning `d` a reference, not a value. That's also why when we update `c` to add a new integer to its list, `d` is also updated. In other words, `c` and `d` contain references to the same list in memory and they are not holding separate values.

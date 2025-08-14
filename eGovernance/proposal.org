@@ -1,0 +1,52 @@
+#+title: Proposal
+#+OPTIONS: toc:nil author:nil date:nil
+
+* Executive Summary
+This project is intended to streamline reporting and management of cybercrimes in Nepal. The project is intended to serve as a bridge between citizens and law enforcement agencies and allows investigators to take action immediately.
+
+The project is inspired by the Internet Crime Complaint Center (IC3) and the National Cyber Crime Reporting Postal. This solution digitize a currently slow and manual process, reduce delays due to inefficient bureaucracy and improve public trust in cyber law enforcement mechanisms.
+
+* Project Background
+The rapid advancement in Information and Communication Technology (ICT) has driven social, economic, and economic development in Nepal. However, it has also resulted in an increasing number of cybercrimes, ranging from identity theft to financial fraud and cyberbullying.
+
+The registering and managing cybercrime complaints is a slow and manual process which requires physical documentation.This manual intervention delays investigations and strains resources. We address these issues by providing an online platform to register complaints and report violations of cyber laws.
+
+* Project Vision
+The objective of this project is to develop an online platform that provides service to victims of cybercrime. The objective of this project include:
+1. To help victims of cybercrimes initiate a complaint at the very beginning.
+2. To assist authorities in collecting valuable digital evidence and personal data from victims nationwide.j
+3. To filter spam applications and prioritize genuine complaints based on urgency.
+4. To replace manual work with automation and save resources.
+
+* Project Risk & Mitigation Strategies
+** Project Risk
+1. Data breaches or cyberattacks
+2. Low user adoptions
+3. Resistance from traditional law enforcement agencies
+4. Server outages
+
+** Mitigation Strategies
+1. Use end-end encryption and  secure hosting services.
+2. Launch public awareness campaigns and partner with local enforcement agencies
+3. Conduct training sessions
+4. Use reliable cloud services with fast support.
+
+* Project Scope & Deliverables
+This project will develop a secure and user friendly platform for users to report cybercrime in Nepal. It will allow the citizens to:
+1. File Complaints about potential crimes
+2. Track the status of their complaints
+3. Submit evidence and other supporting documents
+
+Meanwhile for law enforcement agencies this project will allow them to:
+1. Assign cases to investigators and track their status.
+2. Provide tools to manage reports and even prioritize the cases.
+3. Generate statistics/reports to aid the investigation.
+
+This platform will have role based authentication for citizens, investigators and the administrators. It will also work seamlessly across all devices using web or mobile.
+
+* Expected Benefits
+1. Helps to address the limitation of existing manual systems such as requiring physical documentations for complaint registration.
+2. Enhance transparency and responsiveness.
+3. Raise awareness about cybersecurity.
+4. Increase public trust and participation.
+5. Reduce workload for police departments

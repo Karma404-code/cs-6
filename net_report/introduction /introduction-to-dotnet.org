@@ -1,0 +1,78 @@
+#+title: introduction-to-dotnet
+#+LATEX_CLASS: article
+#+LATEX_CLASS_PAPER: [a4paper]
+#+OPTIONS: toc:nil num:nil
+
+* C#
+C# (Pronounced as _see sharp_ ) is a part of a family of languages that evoled from the C/C++ languages, originating back in the 1960's.
+
+C# is both compiled and strongly-typed language. In a compiled language, the human-readable code is transform, or compiled, into code that computers can read much more efficiently, which makes it faster. A strongly-typed language means that every piece of data and every variable must be of a particular type. Not only that , we must explicitly list the type next to every variable we create.
+transformed
+
+#+begin_src csharp :exports both
+using System;
+
+class Program
+{
+    static void Main()
+        {
+            Console.WriteLine("Hello from Org Mode!");
+        }
+}
+#+end_src
+
+#+RESULTS:
+: Hello from Org Mode!
+
+* .NET
+.NET is a free, corss-platform, open-source developer platform for building many kinds of applications. It can run programs written in multiple languages, with C# being the most popular.
+
+.NET includes the following components:
+- Runtime – executes application code.
+- Libraries – provides utility functionality like JSON parsing.
+- Compiler – compiles C# (and other languages) source code into (runtime) executable code.
+- SDK and other tools – enables building and monitoring apps with modern workflows.
+- App stacks – like ASP.NET Core and WIndows Forms, that enable writing apps.
+
+The runtime, libraries, and languages are the pillars of the .NET stack. Higher-level components, like .NET tools, and app stacks, like ASP.NET Core, build on top of these pillars. C# is the primary programming language for .NET and much of .NET is written in C#.
+
+* Compilation and Execution of C# Program
+
+** Compilation
+Compilation is the process of assembling information from various sources into one location. In software development, this means transforming the code of a developer writes into machine readable code which can be executed by a microprocessor.
+
+*** JIT
+Just In Time (JIT) compilation is a type of compilation process where the code is evaluated and the actions within the code are carried out in live manner i.e. as the user loads and interacts with the code. The code is compiled on-demand at the server or client level.
+
+*** AOT
+Ahead Of Time (AOT) is a compilation process where the code goes through several steps to be compiled into a different format that is optimized for our machines. This code is often compiled to binary files and is saved separately from the code we write.
+
+** Steps in the .NET Compilation Process
+The compilation process for a .NET application begins with the `dotnet build` command.
+
+First the build platform MSBuild is invoked. It looks through the project file and decides what resources it will need to build our program.
+
+We specify the configuration in the project file:
+#+begin_src csharp
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    </PropertyGroup>
+
+</Project>
+#+end_src
+
+After MSBuild successfully gathers all of the resources our project needs, it will create a new folder called `obj`, and put all of the resources inside.
+
+The next thing MSBuild does is compile our project's source code — the C# code that we write. The goal is to compile multiple C# files into a single executable file. MSBuild will end its work by putting all of the compiled code in a `bin` folder, including an executable file that we can run (with the `dotnet run` command). The executable file will end in `.exe` or `.dll`.
+
+*** Common Language Runtime (CLR)
+After our C# program is compiled, we run it with the command `dotnet run`. This command invokes the .NET **runtime** called the **Common Language Runtime (CLR)** which does a few things:
+
+- Compiles the CIL code into machine code, which is code that only our computers can understand and process.
+- Directs our computer to run the code!
+- Provides services that improve our code's performance.
+
+The CLR exists in order to help developers write quality code that is cross-platform, meaning code that can be run on (most) operating systems (like Mac and Linux).
