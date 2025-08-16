@@ -1,0 +1,292 @@
+#+title: Software Engineering
+
+* Unit 1: Introduction
+** Software Engineering
+- Branch of CS and Engineering
+- focus on design, plan, test and maintain software application
+- Applies engineering principle + computer programming expertise in development
+** Software Types
+*** Generic
+- designed for broad range of users with generic needs
+- limited customization
+- shorter development time
+- less cost due to mass-appeal in market
+- generally standardize features
+*** Custom
+- designed for specific organizational need
+- highly customizable for specific needs
+- longer development time
+- generally higher cost due to tailored requirement
+- features are tailored to specific requirements
+** Attributes of Good Software
+*** Maintainability
+*** Efficiency
+*** Portability
+*** Dependability
+*** Usability
+** Advantages
+- quality
+- reliability
+- productivity
+- requirement specification
+** Importance
+-
+** Fundamental Activities
+*** Software specification
+- understanding and defining services required and identifying constraints
+*** Development
+- include system design and implementation
+- convert specification into executable system
+*** Validation
+- building right system
+- system confirms to its specification and meet the requirement
+*** Evolution
+- maintenance
+** Software Engineering vs Computer Science
+1. Primary Focus:
+   CS: Theory, algorithms, and the fundamentals of computation.
+   SE: Practical application, processes, and methodologies for building software.
+2. End Goal:
+   CS: To discover knowledge and prove what is computable.
+   SE: To deliver a reliable, maintainable software product on time and within budget.
+3. Scale:
+   CS: Often focuses on discrete problems or algorithms in isolation.
+   SE: Concerned with the architecture and integration of large, complex systems.
+4. Methodology:
+   CS: Employs mathematical proofs and the scientific method.
+   SE: Employs engineering lifecycles (e.g., Agile, DevOps) and design patterns.
+5. Success Metrics:
+   CS: Correctness, algorithmic efficiency (Big O notation), and elegance.
+   SE: Reliability, user satisfaction, cost-effectiveness, and maintainability.
+6. Core Abstraction:
+   CS: Deals with data structures and algorithms.
+   SE: Deals with system components, architecture, and managing complexity.
+** Software Engineering vs System Engineering
+1. Scope:
+   Software Engineering: Focuses on the software component.
+   System Engineering: Encompasses the entire system (hardware, software, people, processes).
+2. Abstraction Level:
+   Software Engineering: Lower-level; concerned with algorithms, code, and specific features.
+   System Engineering: Higher-level; concerned with system architecture, requirements, and component integration.
+3. Primary Artifacts:
+   Software Engineering: Source code, executables, APIs.
+   System Engineering: Requirements documents, architectural models, trade studies.
+4. Life-cycle Focus:
+   Software Engineering: Manages the Software Development Life-cycle (SDLC).
+   System Engineering: Manages the full System Life-cycle, from conception to retirement.
+5. Core Discipline:
+   Software Engineering: Rooted in computer science.
+   System Engineering: Interdisciplinary, combining elements of software, electrical, and mechanical engineering.
+6. Integration:
+   Software Engineering: Integrates software modules and libraries.
+   System Engineering: Integrates disparate subsystems, including hardware and software.
+7. Verification vs. Validation:
+   Software Engineering: Primarily verifies that the software is built correctly according to its specifications.
+   System Engineering: Primarily validates that the entire system meets the stakeholder's needs and operational goals.
+** Challenges
+*** Heterogeneity challenge
+*** Legacy challenge
+*** Trust challenge
+*** Delivery challenge
+*** Risk challenge
+** Cost
+** Ethics
+*** Confidentiality
+*** Competence
+*** IP right
+*** Computer misuse
+* Unit 2: Software Processes
+** Definition
+- Set of related activities that leads to the production of a software system.
+- Depends on software type, requirement and programmer's skill.
+- Fundamental activities:
+  1. software specification
+  2. software development
+  3. software validation
+  4. software evolution
+** Software Process Model
+*** Waterfall model
+*** Incremental development model
+- system is designed, implemented and tested incrementally.
+- The system development is divided into segments or increment, where each increment represent a functional subset of the entire system
+- allows for continuous development and feedback
+**** Key features
+- iterative development
+- customer feedback
+- risk reduction
+- flexibility
+*** Integration and Configuration model
+- allows the developers to integrate existing solutions and share resources to create new software that supplies functionalities.
+- allows for faster delivery of product with reduced cost and risk associated with the development process.
+- is very suitable for small businesses that do not have too vast a list of requirements and can afford flexibility on the constraints of the requirements.
+** Coping With Change
+*** Prototyping
+- A prototype is created from the outline of the system and is refined and extended iteratively until the final specification.
+- is used when the requirements are not clearly defined.
+**** Types
+***** Evolutionary prototype
+- An evolutionary software prototype is more than just a simulation. It’s a preliminary version of a product that has some basic features and functionality.
+- add new features and functions based on the stakeholders’ feedback.
+- The way that the features and functions add up over time shows the “evolutionary” nature of this prototype.
+***** Throw-away prototype
+- technique to quickly build a prototype to help designer and developers.
+- it is used to quickly test various approaches with the target audience and take their feedback.
+- We throw away the prototype after finishing part of the project and create a new one for the following sprint.
+*** Incremental delivery
+- some of the increment are delivered to the customer and deployed for use.
+- customers define the importance of functionality
+- a number of delivery increment are defined, with each increment providing a subset of system functionality
+** Process Improvement
+- understanding existing process and changing them to improve efficiency
+*** Process maturity approach
+- focuses on the process and project management and introduce good software engineering practices.
+- its level reflect the extend of good technical and management practice that has been adopted into an organization
+*** Agile approach
+- focuses on iterative development and reducing process overhead
+- primary characteristic is rapid delivery of functionality and responsiveness to changing requirement
+** Difference Between Spiral model and V-shaped model
+- test
+- success
+- iterative
+- cost
+- development and test concurrency
+** Component Based Software Engineering (CBSE)
+* Unit 3: Agile Software Development
+** Introduction
+- Flexible approach to create software that emphasizes collaboration, customer feedback and rapid delivery of functional software
+- It focuses on iterative progress through small, manageable increments, allowing teams to adapt to changes and improve continuously.
+** Agile Principle
+*** Customer Involvement
+*** People not process
+*** Incremental delivery
+*** Embrace change
+*** Maintain simplicity
+** Advantage and Disadvantage
+** When Agile?
+** Plan Driven vs Agile Development
+- plan
+- iteration occurrence
+- specification
+- skill
+- system size
+** Agile Development Technique
+** Extreme Programming Practices
+*** Collective ownership
+*** Continuous integration
+*** Incremental planning
+*** On-site customer
+*** Pair programming
+*** Simple design
+* Unit 4: Requirement Engineering
+** User Requirement
+** System Requirement
+*** Functional requirement
+- describe what the system should do
+- focuses on behavior and feature
+- defines a specific behavior or a function of a system
+*** Non-functional requirement
+- describe how the system should perform
+- defines constraints and conditions under which the system must operates
+- specify how the system performs its task, focusing on attributes like performance, security, scalability and usability
+**** Types
+***** Product requirement
+***** Organizational requirement
+***** External requirement
+** Requirement Engineering Process
+*** Feasibility study
+*** Requirement elicitation and analysis
+*** Requirement specification
+*** Requirement validation
+*** Requirement change management
+* Unit 5: System Modeling
+** Introduction
+- process of developing abstract models of a system, with each model providing different view or perspective of that system.
+- Used by system analyst to validate system functionality and for communicating the requirement of customer.
+- used during the design process to describe the system for implementation.
+** Types of Model
+*** Context Model
+- represent the operational environment of the system (outside of the system)
+- Environment = social and organizational concerns that directly or indirectly affect the system
+- figure
+*** Interaction Model
+- Modeling user interaction helps to identify user requirements.
+- Modeling system-to-system interaction highlight potential communication problems
+- use-case diagram and sequence diagram are used for interaction model
+*** Structural Model
+- shows the organization of a system in terms of components that make up the system and their relationship.
+- maybe static (structure) or dynamic (organization) of system
+- create when designing system architecture
+*** Behavior Model
+- models of the dynamic behavior of the system as it is executing
+- shows what happens and what is supposed to happen when a system response to a stimulus from the environment
+**** Data driven modeling
+**** Event driven modeling
+** Model Driven Architecture
+*** Computation independent model
+*** Platform independent model
+*** Platform specific model
+* Unit 6: Architectural Design
+** Introduction
+- understanding software system organization and overall structure design
+- identify main structural component and their relationship
+- final stage in a software design process; link design and requirement engineering
+- affect the performance, maintainability, dependability, etc
+** Architectural Design Decision
+- appropriate architectural style?
+- system distribution?
+- how will the architecture design be evaluated?
+- how should it be documented?
+** Architectural Views
+- representation of entire system; perspective of a related set of concerns
+- describe the system from several view-points: stakeholders, end-users, project manager, developer, etc
+*** Physical view
+*** Logical view
+*** Process view
+*** Development view
+** Architectural Patterns
+- way of presenting, sharing and reusing knowledge about software system that has been adopted in a number of area
+- is a stylized, abstract description of good practice which has been tried and tested
+- There are many generic patterns that can be used in software development
+*** Model-View-Controller pattern
+*** Layered architecture pattern
+*** Repository architecture pattern
+*** Client-server architecture pattern
+*** Pipe and filter pattern
+** Application Architectures
+* Unit 7: Design and Implementation
+** Introduction
+- Design is the stage where conceptual or logical model is translated to physical model
+- Implementation is realizing design as a program
+** Object Oriented Design Using UML
+*** System context and interaction
+*** Use-case model
+*** Architectural design
+*** Object class identification
+** Design Pattern
+- typical solution to common problem in software design
+- patterns are formalized best practices that a programmer can use to solve a common problem during design
+** Implementation Issues
+*** Reuse
+*** Configuration management
+*** Host target development
+** Open Source Development
+* Unit 8: Software Testing
+** Introduction
+** Verification and Validation
+- definition
+- activities involved
+- carried out by
+- code execution
+- specifies
+** Software Inspection
+** Software Testing Process
+** Development Testing
+** Test Driven Development
+** Release Testing
+** User Testing
+* Unit 9: Software Evolution
+** Software Evolution Process
+** Legacy System
+** Software Maintenance
+** Cost of Maintenance
+* Unit 10: Software Management
