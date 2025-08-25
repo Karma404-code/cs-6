@@ -1,0 +1,84 @@
+#+title: Dotnet
+
+* Unit 1: Introduction to .Net Framework
+** Introduction
+- windows only version of . NET for building client and server applications
+** Architecture of .NET
+*** Application
+*** Framework Class Library
+- provides set of types and APIs for common functionalities
+*** Common Language Runtime
+- execution engine that handles running application
+- provide application that threat management, garbage collection, type-safety, exception handling and more
+** Compilation
+** Execution
+- a developer write C# code
+- compiler checks the syntax and analyze the source code
+- MSIL is generated
+- CLR gets initialized inside a process and runs entry point method
+- MSIL gets converted to native code by JIT compiler
+** Basic Language Construct
+- data types
+- conditional
+- variable
+- looping
+- array
+- function
+** Jump Statement in C#
+- break
+- continue
+- goto
+- return
+** Object Oriented Programming
+*** Classes and Object
+*** Properties and Fields
+*** Constructors
+*** Inheritance
+*** base Keyword
+*** Method Overriding
+*** Method Hiding
+*** Structs
+*** Enum
+*** Delegate and Events
+*** Generics
+*** File IO
+*** Polymorphism
+** Language Integrated Query (LINQ) Fundamental
+*** Lamda Expression
+*** Try-catch Block and Exception
+** Attributes
+** Asynchronous Programming
+* Unit 2: Introduction to ASP.NET
+** Introduction
+*** .NET
+- free, open-source, cross-platform framework for building modern apps and powerful cloud service
+*** ASP.NET
+- modern, high performance web-development framework for .net
+  -
+*** .NET Core
+*** Mono
+** ASP.NET Web Form
+** ASP.NET MVC
+-
+** ASP.NET Web API
+** .NET Architecture and Design Principle
+- common language runtime
+- common language infrastructure
+- common type system
+- common language specification
+- framework class library
+* Unit 4: Creating ASP.NET Core Web MVC Application
+** Setting Environment
+** Controller
+** Action
+** View
+** Razor Syntax
+** URL Routing
+** Understanding Tag Helpers
+** HTML Helpers
+** Model
+- represent the state or the application and any other business logic or operation that should be performed by it
+-
+*** Model Binding
+*** Model Validation
+** Web Application
