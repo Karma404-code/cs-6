@@ -1,0 +1,76 @@
+#+title: E Commerce
+
+* Unit 1: Introduction
+** E-commerce
+** E-business
+** Features
+** History
+** Framework
+** Types
+** Challenges
+** Status
+** Electronic Transaction Act
+* Unit 2: E-commerce Business Model
+** Introduction
+** Elements of Business Model
+** Types of Business Model
+** B2C
+** B2B
+** Electronic Data Interchange
+** EDI Layered Architecture
+** Electronic and Industry Value Chain
+** Firm Value Chain
+** Firm Value Web
+* Unit 3: Electronic Payment System
+* Unit 4: Security in E-commerce
+** E-commerce Security
+*** Dimension
+** Security Threats
+** Vulnerability
+** Security Mechanism
+* Unit 6: Digital Marketing
+** Digital Marketing
+** Online Marketing
+** Ad targeting
+** Search Engine Marketing
+** Display Ads Marketing
+** Email Marketing
+** Affiliate Marketing
+** Local Marketing
+** Online Marketing Metrics
+* 7: Optimizing E-commerce System
+** Search Engine Optimization
+- process of making website better for search engine
+- website appears at the top of search result
+*** Working Mechanism
+- search engine is a software accessible through a web site that helps people find things in web search
+- contains three part
+**** Spider
+**** Index
+**** Search Utility
+*** On-page SEO
+- involves optimizing elements within the website to enhance its search engine ranking
+- key element
+  - content quality
+  - keyword optimization
+  - meta tags
+  - url structure
+  - internal linking
+*** Off-page SEO
+- focuses on activities outside the website that influence its authority and influence
+- key elements
+  - backlinks
+  - social media marketing
+  - online reputation management
+  - influencer marketing
+*** Page Rank
+ - algorithm used by google
+ - way of measuring the importance of web pages
+**** Activities to Improve Rank
+- use google analytics to track metrics
+- optimize existing pages
+- create content based on keyword
+- diversify back link portfolio
+- optimize images
+- decrease load time
+** Recommendation System
