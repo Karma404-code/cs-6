@@ -1,0 +1,166 @@
+#+title: Compiler Design
+
+* Unit 1: Introduction to Compiler
+** Compiler
+- translation software
+- term is primarily used for programs that translate source code from a high-level programming language to a low-level programming language to create a executable program.
+** Features of Compiler
+1. translator that converts high-level language to machine language
+2. high-level language is written by developers and machine language can be understood by the processor
+3. used to show error to programmer
+4. execute program in two parts: source program is compiled into object program and object program is translated into target program
+** Compiler Structure
+- compiler operates in phases
+- phase is a logically interrelated operation that takes source program in one representation and produce a output in another representation
+*** Analysis phase
+- intermediate representation is created from the source program.
+- also called front-end of compiler
+**** Lexical analysis
+- source program is read from left-to-right and grouped into tokens
+**** Syntax analysis
+- syntax analyzer takes token as input and generate a parse tree as output
+- parser checks if the expression made by tokens are syntactically correct or not
+**** Semantic analysis
+- semantic analyzer checks the source program for semantic error and collects the type information for code generation.
+- checks whether they form a sensible set of instruction in the programming language
+**** Intermediate code generation
+- generate a simple machine independent intermediate language
+- easy to translate into machine code
+*** Synthesis phase
+- Equivalent target program is created from intermediate representation
+- also called back-end of the compiler
+**** Code optimization
+- used to improve intermediate code
+- removes unnecessary code and arrange the statement sequence to speed up execution
+**** Code generation
+- final stage
+- takes the optimized intermediate code and generate code in target machine language
+** Symbol Table
+- data structure that hold information about source program construct
+- information is collected incrementally during the analysis phase and is used by synthesis phase
+- used to generate target code
+- entries contain information about identifiers: type, position, etc
+** Error Handling
+- is invoked when an error is encountered during compilation of source program
+- generate a suitable error reporting message regarding the error encountered
+- block diagram
+** Compiler and Interpreter
+- definition
+- reading
+- intermediate object code
+- error
+- later execution requirement
+- output
+** One-pass and Multi-pass compiler
+- phases
+- intermediate representation
+- speed
+- aka
+- example
+** Pre-processor
+- tool that produces input for the compiler
+- functions:
+*** Macro processing
+*** File inclusion
+*** Rational preprocessor
+*** Language extension
+** Macros
+- stands for macro-instruction
+- programmable pattern which translate a certain set of input into a present sequence of output
+- helps to make task less repetitive
+*** Features of macro processor
+1. represents a group of commonly used statement in the source program
+2. leave the mechanical detailed to be handled by macro processor
+3. not directly related to computer architecture
+4. involve definition, invocation and expansion
+* Unit 2: Lexical Analyzer
+** Theory of Computation
+**** Minimization of DFA
+**** Equivalence of RE and Finite Automata
+**** Reduce of RE to ε-NFA
+**** Converting ε-NFA to its Equivalent DFA
+** Lexical Analysis
+ - first phase of a compiler where a lexical analyzer acts as an interface between source code and rest of the compilation phase.
+ - read input character from the source program, group them into lexemes and produce a sequence of tokens for each lexeme.
+ - tokens are then sent to parser
+ - figure
+*** Roles of Lexical Analysis
+1. help identify token into the symbol table
+2. eliminate comments and white space from source code
+3. generates lexical errors
+*** Lexeme
+- sequence of alpha-numeric characters that is matched against pattern for token.
+- sequence of input character that makes up a single token is called lexeme
+*** Pattern
+- rule for deciding whether a given lexeme belongs to a token or not
+- rule associated with each set of string is called a pattern
+*** Token
+ - word which describe the lexeme in the source program
+ - generated when lexeme is matched against pattern
+ - logical building block of a language
+**** Specification of Token
+1. alphabets
+2. string
+3. language
+** Design a Lexical Analyzer
+*** RE -> NFA -> DFA
+*** RE -> DFA
+** Flex
+** Syntax Analyzer
+*** Syntax Analysis
+*** Role of Syntax Analyzer / Parser
+*** Parsing
+**** Top Down Parser
+a) Recursive descent parser
+- Left Recursion
+- Left Factoring
+b) Non-recursive descent parser
+***** LL(1) Parsing Table
+- need first and follow
+- Table :
+  | non-terminal | symbol | symbol | ... | $ |
+  |              |        |        |     |   |
+  |              |        |        |     |   |
+- all the ε-production are placed unde FOLLOW sets
+- remaining production are placed under FIRST
+**** Bottom-up Parser
+***** Shift-Reduce parsing
+***** LR parsing
+****** SLR (Simple LR Parser)
+****** LR(1) Grammar
+****** LALR(1) Grammar
+** Semantic Analysis
+*** Introduction
+- third phase of Lexical analyzer
+- provide meaning to its construct like syntax structure and token
+**** Example
+1. using non-initialized variable
+2. type incompatibility
+3. error in expression
+4. out-of-bound array
+5. unknown reference
+*** Type Checking
+- process of checking data types of different variables
+- design of type checker is based on information about syntactic construct
+- figure: position of type checker
+*** Type System
+*** Type Expression
+*** Static and Dynamic Typing
+- compile vs run time
+- example
+*** Type Casting and Type Conversion
+- by
+- compatible
+- casting operator
+- destination type
+- takes place
+*** Syntax Directed Translation
+- method of compiler implementation where the source language translation is completely driven by parser
+- general approach is to create a syntax-tree or a parser-tree and compute the values of the attributes at the nodes in the tree
+- two ways to represent semantic rules associated with grammar symbol
+**** Syntax-Directed Definition
+**** Syntax-Directed Translation Scheme
+*** Attribute Types
+**** Synthesized attribute
+**** Inherited attribute
+*** Annoted Parse Tree
