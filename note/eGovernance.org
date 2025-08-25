@@ -1,0 +1,178 @@
+#+title: E Governance
+
+
+* Unit 1 : Introduction to E-Governance and E-Government
+** E-Government
+- involves utilizing technology devices, such as computers and the internet, for faster means of delivering public services to citizens
+- offer new opportunities for more direct and convenient citizen access to government and for government provision of services directly to citizen
+*** Benefits
+1. better provision of government services
+2. ensure greater level of efficiency and effectiveness in government activities and operation
+3. efficient government management
+4. improve quality of public services
+*** As a Information System
+- design deals first with software then hardware
+- fives stages
+**** Project assessment
+**** Analysis of current reality
+**** Design of proposed system
+**** System construction
+**** Implementation and beyond
+*** Life-cycle
+** E-Governance
+- eGovernance is the use of ICT in governing country/state or any organization.
+- It is a functionality that uses ICT to enhance range and quality of information and services delivered to public in an effective manner.
+*** Features
+*** Models
+*** Evolution
+**** Policy framework
+**** Enhanced public services
+**** high quality and cost effective government operation
+**** Citizen engagement in democratic process
+**** Administrative and Institutional reforms
+*** Scope
+1. efficiency and effective executive functions
+2. greater transparency
+3. improve relation between citizen and state; improving democratic process
+*** Content
+1. hardware and corresponding system software
+2. networking
+3. application software along with DBMS
+*** Service Delivery
+** Online Service Delivery
+** Electronic Service Delivery
+** Present Global Trend
+* Unit 2 : Models of E-Governance
+ - use of ICT to provide quality information and services
+ - efficient, cost-effective and convenient
+** Models of Digital Governanace
+*** Broadcasting Model
+*** Critical Flow Model
+*** Comparative Analysis Model
+*** Mobilization and Lobbying Model
+*** Interactive Service Model
+** Maturity Model
+*** Closed
+*** Initialized
+*** Planned
+*** Realized
+*** Institutionalized
+** Toward Good Governance
+* Unit 3 : E-Government Infrastructure Development
+** Network Infrastructure
+- hardware and software resource that enable network connectivity, communication, management and operation of entire network
+- provide communication path and services between users, processes, application, services and internet
+- entire architecture is interconnected and can be used for internal or external communication
+*** Network Hardware
+- routers
+- switches
+- LAN card
+- cables
+*** Network Software
+- network operation and management
+- operating system
+- firewall
+- network security application
+*** Network Service
+- T-1 line
+- satellite
+- wireless protocol
+- IP address
+** Computer Infrastructure
+- foundation or framework that support the system
+- provide management and support for servers, end-user, storage, operating system, database, middle-ware
+- three groups
+**** Database administration
+**** End-user computing
+**** Server and storage services
+** Data Center
+- centralized location where computing and networking equipment is concentrated for collecting, storing, distributing and processing data
+- need
+- component
+- working mechanism
+** E-government Architecture
+- figure: architecture structure
+*** Presentation layer
+*** E-government layer
+*** Business architecture layer
+*** Information architecture layer
+*** Technology architecture layer
+** Interoperability Framework
+- set of standard and guidelines for inter-organization interaction
+- should be followed by public sector information system to achieve technical and operational interoperability
+- three levels of interoperability
+  1. organizational
+  2. semantic
+  3. technical
+** Cloud Governance
+- framework to govern the use of cloud services
+- include people, process, technology while ensuring security, cost management, and deployment acceleration
+- helps in regulating and controlling use of cloud services by defining process, standard and policies to be followed to operate cloud services
+*** Key benefits
+1. controlled access
+2. reduced security risk
+3. enhanced compliance readiness
+4. lowered cost
+*** Elements of Cloud Governance
+** E-readiness
+- degree to which a country's economy is ready, willing or prepared to integrate ICT
+- ability to use power of ICT for development
+*** Prerequisite
+1. data system infrastructure preparedness
+2. legal infrastructure preparedness
+3. human infrastructure preparedness
+4. institutional infrastructure preparedness
+5. technology infrastructure preparedness
+** Management Information System
+- computing system that serve as a backbone of an organizational system
+- gather, analyze and report data
+- is a study of people, technology, organization and their relationship
+* Unit 4 : Security in E-Government
+** Challenges
+- Information security is determined in terms of Confidentiality, Integrity, Availability
+** Approach
+- cryptographic mechanism
+- database design
+- anti-virus system
+- firewalls
+- analysis tools
+- monitoring tools
+- biometric technology
+** Security Management Approach
+*** Access Control Model
+*** Security Architecture Model
+*** Biba Integration Model
+*** Clark-Whitson Model
+*** Graham-Denning Access Control Model
+** E-Government Security Architecture
+** Security Standard
+* Unit 5 : Application of Datawarehousing and Data Mining in Government
+** Introduction
+- collection of tools and technique using which more knowledge can be obtained from large set of data
+- helps in decision making and provide more information resource
+- is basically a database with unique data structure that allows relatively quick and easy performance of complex queries
+** Features of Data Warehouse
+- subject oriented
+- time variant
+- integrated
+- non volatile
+** Advantage
+- delivery enhanced business intelligence
+- saves time
+- enhances data quality and consistency
+- generate high ROI
+- strealine flow of information
+** Data Mining
+- refers to knowledge extraction from large amount of data
+- data source = database, website, data warehouse
+- computer-supported process of analyzing data
+** Application of Data Mining
+- healthcare
+- education
+- manufacturing
+- fraud detection
+- customer relation management
+
+**
+
+ 
